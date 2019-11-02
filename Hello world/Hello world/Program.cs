@@ -10,8 +10,12 @@ namespace Hello_world
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!");
-            Console.WriteLine("Bye world!");
+            int a, b;
+            Console.WriteLine("\tEnter num 1: \n");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\tEnter num 2: \n");
+            b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\tResult: {0}", a+b);
             Console.ReadLine();
         }
     }
