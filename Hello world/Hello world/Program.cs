@@ -10,6 +10,7 @@ namespace Hello_world
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hi!");
             int a, b;
             Console.WriteLine("\tEnter num 1: \n");
             a = Convert.ToInt32(Console.ReadLine());
